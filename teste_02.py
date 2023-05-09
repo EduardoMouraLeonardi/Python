@@ -26,21 +26,26 @@ print(nome.capitalize())
 # Transformando Todo valor de uma STRING em Caixa Alta. #
 print("Capitalizando toda a variavel \"nome\"")
 print(nome.upper())
+print("\n")
 
 # Transformando a 1° Letra de uma STRING em Caixa Baixa. #
 print("Convertendo caracteres para caixa baixa:")
 print("De "+sobrenome+" para "+sobrenome.lower())
+print("\n")
 
 # Verificando se o Valor do Dado tipo STRING é Composto por Numeros. #
 print("O valor na variavel \"idade\" é composto por numeros?")
 print(idade.isdigit())
+print("\n")
 
 # Verificando se o Valor do Dado tipo STRING é Composto por Letras. #
 print("O valor na variavel \"idade\" é composto por letras?")
 print(idade.isalpha())
+print("\n")
 
 # Exibindo Dados Presentes nas Variaveis. #
 print("Ola meu nome é: "+nome+" "+sobrenome+" e tenho: "+idade+" anos.")
+print("\n")
 
 # Exibindo um Dado Multiplas Vezes. #
 print("Exibindo o valor de uma variavel multiplas vezes")
