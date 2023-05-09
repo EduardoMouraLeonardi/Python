@@ -1,4 +1,4 @@
-################################################ Metodos Para String ################################################
+# Metodos Para String #
 
 # Criando Variaveis em uma unica linha. #
 nome, sobrenome, idade = "eduardo", "MOURA", "20"
@@ -32,13 +32,16 @@ print("Convertendo caracteres para caixa baixa:")
 print("De "+sobrenome+" para "+sobrenome.lower())
 
 # Verificando se o Valor do Dado tipo STRING é Composto por Numeros. #
+print("O valor na variavel \"idade\" é composto por numeros?")
 print(idade.isdigit())
 
 # Verificando se o Valor do Dado tipo STRING é Composto por Letras. #
+print("O valor na variavel \"idade\" é composto por letras?")
 print(idade.isalpha())
 
 # Exibindo Dados Presentes nas Variaveis. #
 print("Ola meu nome é: "+nome+" "+sobrenome+" e tenho: "+idade+" anos.")
 
 # Exibindo um Dado Multiplas Vezes. #
+print("Exibindo o valor de uma variavel multiplas vezes")
 print(nome*3)
